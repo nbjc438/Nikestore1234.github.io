@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+
+}
+body{
+
+          font-family: 'PT Sans', sans-serif;
+}
+body ul{
+          list-style: none;
+          
+}
+.nav{
+          background-color: white;
+          padding: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+}
+
+
+.nav ul {
+        
+       
+       
+         display: flex;
+         align-items: center;
+
+}
+
+.nav li{
+       
+          /* display: inline-block; */
+          font-size: 20px;
+          margin: 0 15px;
+}
+.nav li img{
+         height: 60px;
+         margin-right: 25px;
+}
+
+.nav li a{
+          text-decoration: none;
+          color: black;
+}
+
+.nav .left{
+          display: flex;
+          align-items: center;
+}
+
+.nav .right li.efg{
+color: #0000ff;
+}
+.nav .right li.most{
+        font-size: 15px;
+}
+
+.abc{
+          background-color: whitesmoke;
+          padding: 25px;
+}
+
+.abc ul{
+          white-space: nowrap;
+          max-width: 1200px;
+          margin: 0px auto;
+         
+}
+
+.abc li{
+          width: 7%;
+          display: inline-block;
+          font-size: 20px;
+          
+}
+
+.abc li a{
+          text-decoration: none;
+          color: black;
+
+}
+.abc .magic a{
+          color: salmon;
+}
+
+
+
+.banner{
+          position: relative;
+          max-width: 80%;
+          left: 10%;
+}
+
+.banner img{
+          max-width: 100%;
+}
+
+.banner .able {
+       
+          color: #ff764d;
+          position: absolute;
+          left: 35.5%;
+          top: 65%;
+}
+
+.banner h4{
+          font-size: 75px;
+          font-style: normal;
+}
+
+main{
+          max-width: 100%;
+          width: 1200px;
+          margin: 20px ;
+          padding: 0 40px;
+          box-sizing: border-box;
+          
+         
+}
+.a {
+          font-size: 25px;
+}
+
+.b{
+          font-size: 18px;
+}
+
+article p span {
+          color: royalblue;
+}
+
